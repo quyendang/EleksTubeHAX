@@ -27,9 +27,9 @@
 // ************* WiFi config *************
 #define WIFI_CONNECT_TIMEOUT_SEC 20
 #define WIFI_RETRY_CONNECTION_SEC 15
-#define WIFI_USE_WPS                                    // Uncomment to use WPS instead of hard coded wifi credentials
-#define WIFI_SSID "__enter_your_wifi_ssid_here__"       // Not needed if WPS is used
-#define WIFI_PASSWD "__enter_your_wifi_password_here__" // Not needed if WPS is used. Caution - Hard coded password is stored as clear text in BIN file
+// #define WIFI_USE_WPS                                    // Uncomment to use WPS instead of hard coded wifi credentials
+#define WIFI_SSID "The White House"       // Not needed if WPS is used
+#define WIFI_PASSWD "123456789" // Not needed if WPS is used. Caution - Hard coded password is stored as clear text in BIN file
 
 //  *************  Geolocation  *************
 // new in V1.3.3 -> Geolocation enabled by default with free provider, to get timezone and DST info
