@@ -49,7 +49,7 @@
 #define NTP_UPDATE_INTERVAL 60000
 
 // ************* MQTT plain mode config *************
-// #define MQTT_PLAIN_ENABLED // Enable MQTT support for an external provider
+#define MQTT_PLAIN_ENABLED // Enable MQTT support for an external provider
 
 // MQTT support is limited to what an external service offers (for example SmartNest.cz).
 // You can use MQTT to control the clock via direct MQTT messages from external service or some DIY device.
@@ -62,9 +62,9 @@
 #ifdef MQTT_PLAIN_ENABLED
 #define MQTT_BROKER "smartnest.cz"                        // Broker host
 #define MQTT_PORT 1883                                    // Broker port
-#define MQTT_USERNAME "__enter_your_mqtt_username_here__" // Username from Smartnest
-#define MQTT_PASSWORD "__enter_your_mqtt_password_here__" // Password from Smartnest or API key (under MY Account)
-// #define MQTT_CLIENT_ID_FOR_SMARTNEST "__enter_your_device_id_here__"     // Device ID from Smartnest
+#define MQTT_USERNAME "quyendang93" // Username from Smartnest
+#define MQTT_PASSWORD "Macbook214" // Password from Smartnest or API key (under MY Account)
+#define MQTT_CLIENT_ID_FOR_SMARTNEST "692b188a9848e423145dd01e"     // Device ID from Smartnest
 #endif
 
 // ************* MQTT HomeAssistant config *************
